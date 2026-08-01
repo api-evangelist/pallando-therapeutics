@@ -1,8 +1,23 @@
 aid: pallando-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pallando-therapeutics.png
 name: Pallando Therapeutics
-description: Pallando Therapeutics is a company surfaced as a portfolio company of general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Pallando Therapeutics is an early-stage biotechnology company developing next-generation
+  targeted protein degraders with an emphasis on precision targeting, under the tagline "Intelligent
+  Degradation, Innovative Therapies." It was surfaced as a portfolio company of General Catalyst and
+  added to the API Evangelist network. As of this profile its public website (pallandotx.com) is a
+  coming-soon placeholder and it publishes no developer API, documentation, SDKs, or other technical
+  surface for the enrichment pipeline to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/pallando-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Therapeutics
+- Biotechnology
+- Protein Degradation
+- Drug Discovery
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://pallandotx.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
